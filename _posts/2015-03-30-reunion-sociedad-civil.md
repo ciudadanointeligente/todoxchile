@@ -7,4 +7,4 @@ title: Reunión de la sociedad civil organizada
   Unificar los esfuerzos para llegar con la ayuda de manera eficiente.
 </div>
 
-![Imagen de la campaña]({{ site.baseurl }}/img/reunion-sociedad-civil.jpg)
+![Imagen de la campaña]({{ site.baseurl }}/public/img/reunion-sociedad-civil.jpg)
