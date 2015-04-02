@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Voluntariado
+permalink: /volunteering/
 ---
 
 <p class="message">

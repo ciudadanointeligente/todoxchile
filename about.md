@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Acerca de nosotros
+permalink: /about/
 ---
 
 <p class="message">
