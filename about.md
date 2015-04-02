@@ -63,6 +63,6 @@ Distintas organizaciones, movimientos sociales y redes de la sociedad civil se r
 * Urbanismo Social
 
 
-¿Preguntas o sugerencias? Sientete libre de [abrir un reporte en GitHub](https://github.com/ciudadanointeligente/todoxchile/issues/new) o [pregúntanos en Twitter](https://twitter.com/ciudadanointeligente).
+¿Preguntas o sugerencias? Sientete libre de [abrir un reporte en GitHub](https://github.com/ciudadanointeligente/todoxchile/issues/new) o [pregúntanos en Twitter](https://twitter.com/ciudadanoi).
 
 ¡Gracias por leer!
