@@ -2,8 +2,8 @@
 title:       Todo X Chile
 tagline:     'Unificando los esfuerzos para llegar con la ayuda de manera eficiente'
 description: 'Herramienta de unificación de los esfuerzos de voluntarios y sociedad civil organizada para llegar con la ayuda de manera eficiente.'
-baseurl:     '' #example: 'http://www.todoxchile.org'
-basedomain:  '' #example: 'todoxchile.org'
+baseurl:     'http://ciudadanointeligente.github.io/todoxchile' #example: 'http://www.todoxchile.org'
+basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.org'
 analytics:   'UA-31247996-1'
 paginate:    5
 
