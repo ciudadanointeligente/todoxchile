@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Voluntariado
-permalink: /volunteering/
+permalink: {{ site.baseurl }}/volunteering/
 ---
 
 <p class="message">
