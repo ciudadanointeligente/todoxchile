@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Acerca de nosotros
-permalink: {{ site.baseurl }}/about/
+permalink: /about/
 ---
 
 <p class="message">

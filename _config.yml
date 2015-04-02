@@ -18,5 +18,5 @@ highlighter: pygments
 
 # permalinks
 # use of `relative_permalinks` ensures post links from the index work properly.
-permalink:   pretty #possible issues in GitHub Pages
+# permalink:   pretty #possible issues in GitHub Pages
 relative_permalinks: true
