@@ -1,6 +1,6 @@
 # Todo x Chile
 
-Todo x Chile is a [Jekyll](http://jekyllrb.com) app. An emergency kit. An emergency kit (app) for the coordination of support, display of tools for localization and volunteer activities.
+Todo x Chile is a [Jekyll](http://jekyllrb.com) app. An emergency kit for the coordination of support, display of tools for localization and volunteer activities.
 
 
 ## License
