@@ -1,40 +1,205 @@
----
-layout: default
-title: Página principal
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<img src="{{ site.baseurl }}/public/img/logo-todoxchile-resized.png" width="100%">
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+	<title>{{ site.title }}</title>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+	<style>
+	body {
+		padding-top: 70px;
+		padding-bottom: 30px;
+	}
+	</style>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Anteriores</a>
-  {% else %}
-    <span class="pagination-item older">Anteriores</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Mas recientes</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Mas recientes</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Mas recientes</span>
-  {% endif %}
-</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">{{ site.title }} {{ site.slogan }}</a>
+        </div>
+        <!-- <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div> --><!--/.nav-collapse -->
+      </div>
+    </nav>
 
+    <div class="container">
+    	<div class="slogan">
+    		<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+    	</div>
+    	<div class="info-tabs">
+    		<div role="tabpanel">
+
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+			    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+			    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+			  </ul>
+
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="home">
+			    	<h3>home Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptatem consequatur eum atque repudiandae fuga qui sint saepe. Aperiam voluptatum neque veritatis, commodi, eos necessitatibus. Voluptates minima quasi ipsa rem.
+			    	</p>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur ab soluta, id fugiat repellendus necessitatibus suscipit, voluptatum esse blanditiis. Ut pariatur, illum earum doloribus dolores aliquam quas velit quasi.
+			    	</p>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="profile">
+			    	<h3>profile Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptatem consequatur eum atque repudiandae fuga qui sint saepe. Aperiam voluptatum neque veritatis, commodi, eos necessitatibus. Voluptates minima quasi ipsa rem.
+			    	</p>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur ab soluta, id fugiat repellendus necessitatibus suscipit, voluptatum esse blanditiis. Ut pariatur, illum earum doloribus dolores aliquam quas velit quasi.
+			    	</p>
+			    </div>
+			    <div role="tabpanel" class="tab-pane" id="messages">
+			    	<h3>messages Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptatem consequatur eum atque repudiandae fuga qui sint saepe. Aperiam voluptatum neque veritatis, commodi, eos necessitatibus. Voluptates minima quasi ipsa rem.
+			    	</p>
+			    	<p>
+			    		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore consequuntur ab soluta, id fugiat repellendus necessitatibus suscipit, voluptatum esse blanditiis. Ut pariatur, illum earum doloribus dolores aliquam quas velit quasi.
+			    	</p>
+			    </div>
+			  </div>
+
+			</div>
+    	</div>
+    	<div class="social">
+    		<div class="row">
+    			<div class="col-md-7">
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>	
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>
+    				<ul class="list-inline">
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    					<li><img src="//placehold.it/100x100" alt=""></li>
+    				</ul>
+    			</div>
+    			<div class="col-md-5">
+    				 <a class="twitter-timeline" href="https://twitter.com/hashtag/todoxchile" data-widget-id="586524341438930944">#todoxchile Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+    			</div>
+    		</div>
+    	</div>
+
+        <div class="weare">
+            <h3>Quiénes somos</h3>
+            <ul class="list-inline">
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+                <li><img src="//placehold.it/100x100" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="talk">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES * * */
+                var disqus_shortname = 'todoxchile';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+            <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES * * */
+                var disqus_shortname = 'todoxchile';
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function () {
+                    var s = document.createElement('script'); s.async = true;
+                    s.type = 'text/javascript';
+                    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                }());
+            </script>
+        </div>
+    </div>
+</body>
+</html>
