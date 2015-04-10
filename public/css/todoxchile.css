@@ -2,6 +2,7 @@ body {
   padding-top: 0px;
   padding-bottom: 30px;
   color: #1B395B;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
@@ -21,10 +22,6 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 100;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
 }
 
 /*Header*/
@@ -79,4 +76,77 @@ p {
 .social {
   padding-top: 25px;
   background-color: #1d3b5a;
+}
+
+/*Btn*/
+
+.btn-default {
+  color: #FFF;
+  background-color: #4AC6E2;
+  border-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background-color: #FF6039;
+  border-color: transparent;
+}
+
+/*Form*/
+
+input {
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+input[type=radio] {
+  width: 15px;
+}
+
+input#entry_1477668518_other_option_response {
+  width: inherit;
+}
+
+::-webkit-input-placeholder {
+   font-family: 'Roboto', sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: 'Roboto', sans-serif;
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: 'Roboto', sans-serif;
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   font-family: 'Roboto', sans-serif;
+   color: red;  
+}
+
+.ss-form-entry {
+  margin: 5px 0 15px;
+}
+
+form ol ul {
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+li.ss-choice-item {
+  line-height: 30px;
+}
+
+select {
+  width: 100%;
 }
