@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
 }
 
@@ -22,6 +22,8 @@ h2 {
 h3 {
   font-size: 28px;
   font-weight: 100;
+  margin: 20px 0;
+  text-align: center;
 }
 
 /*Header*/
@@ -92,7 +94,7 @@ Header CTA ========*/
     z-index: 40;
 }
 
-.header-img h2 {
+.header-img h1 {
   position: absolute;
   top: 90px;
   max-width: 600px;
