@@ -1,6 +1,6 @@
 ---
 name: Fundación Colunga
 url: www.fundacioncolunga.org
-image:
-active: false
+image: colunga.png
+active: true
 ---

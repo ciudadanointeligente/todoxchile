@@ -1,6 +1,6 @@
 ---
 name: Acción Emprendedora
 url: www.accionemprendedora.org
-image:
-active: false
+image: accionemprendedora.png
+active: true
 ---
