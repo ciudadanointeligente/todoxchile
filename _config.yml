@@ -5,10 +5,11 @@ description: 'Herramienta de unificación de los esfuerzos de voluntarios y soci
 baseurl:     '/todoxchile' #example: 'http://www.todoxchile.org'
 basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.org'
 analytics:   'UA-31247996-1'
-paginate:    5
+#paginate:    5
 
 # social
 twitter: '@ciudadanoi'
+hashtag: '#FuerzaChile'
 
 # credits
 author:
