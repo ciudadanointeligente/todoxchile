@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 1 Copy 2 + Fill 1 + Stroke 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-974.000000, -480.000000)">
+            <g id="Oval-1-Copy-2-+-Fill-1-+-Stroke-2" sketch:type="MSLayerGroup" transform="translate(974.000000, 480.000000)">
+                <circle id="Oval-1-Copy-2" fill="#FFFFFF" sketch:type="MSShapeGroup" cx="26.5" cy="26.5" r="26.5"></circle>
+                <g id="Fill-1-+-Stroke-2" transform="translate(14.000000, 16.500000)" sketch:type="MSShapeGroup">
+                    <path d="M16.752,9.808 C16.752,10.568 16.132,11.184 15.376,11.184 C14.612,11.184 14.004,10.568 14.004,9.808 C14.004,9.048 14.612,8.432 15.376,8.432 C16.132,8.432 16.752,9.048 16.752,9.808" id="Fill-1" fill="#FF6039"></path>
+                    <path d="M21.136,14.684 L21.136,17.728 C21.136,18.828 20.236,19.728 19.136,19.728 L2.5,19.728 C1.4,19.728 0.5,18.828 0.5,17.728 L0.5,2.276 C0.5,1.172 1.4,0.276 2.5,0.276 L19.136,0.276 C20.236,0.276 21.136,1.172 21.136,2.276 L21.136,4.94 M15.316,14.308 C12.832,14.308 10.82,12.292 10.82,9.808 C10.82,7.324 12.832,5.308 15.316,5.308 L22.5,5.308 C23.6,5.308 24.5,6.208 24.5,7.308 L24.5,12.308 C24.5,13.408 23.6,14.308 22.5,14.308 L15.316,14.308 L15.316,14.308 Z" id="Stroke-2" stroke="#FF6039" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

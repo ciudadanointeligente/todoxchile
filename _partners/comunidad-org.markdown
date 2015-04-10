@@ -1,6 +1,6 @@
 ---
 name: Comunidad Organizaciones Solidarias
 url: www.comunidad-org.cl
-image:
-active: false
+image: comunidad-org.png
+active: true
 ---

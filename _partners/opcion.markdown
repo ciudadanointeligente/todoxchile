@@ -1,6 +1,6 @@
 ---
 name: Opción
 url: www.opcion.cl
-image:
-active: false
+image: opcion.png
+active: true
 ---
