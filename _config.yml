@@ -1,14 +1,13 @@
 # setup
-title:       Todo X Chile
+title:       TodoXChile
 tagline:     'Unificando los esfuerzos para llegar con la ayuda de manera eficiente'
+edition:     '#FuerzaNorte'
 description: 'Herramienta de unificación de los esfuerzos de voluntarios y sociedad civil organizada para llegar con la ayuda de manera eficiente.'
 baseurl:     '/todoxchile' #example: 'http://www.todoxchile.cl'
 basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.cl'
 analytics:   'UA-31247996-1'
-
-# social
-twitter: '@ciudadanoi'
-hashtag: '#FuerzaChile'
+twitter:     '@ciudadanoi'
+hashtag:     '#FuerzaChile'
 
 # credits
 author:
