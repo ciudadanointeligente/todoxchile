@@ -12,7 +12,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">{{ site.title }} {{ site.tagline }}</a>
+          <a class="navbar-brand" href="#">{{ site.title }} {{ site.hashtag }}</a>
         </div>
       </div>
     </nav>
@@ -20,7 +20,7 @@
     <div class="header-img">
         <div class="container">
             <div class="slogan">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <h2>{{ site.tagline }}</h2>
             </div>
         </div>
     </div>
@@ -52,75 +52,28 @@
       
 
     <div class="container">
-      <div class="social">
+
+      <div class="weare">
+          <h3>Quiénes somos</h3>
+          <ul class="list-inline">
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+              <li><img src="//placehold.it/100x100" alt=""></li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="social">
+      <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul> 
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-            <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-          </div>
-          <div class="col-md-5">
-             <a class="twitter-timeline" href="https://twitter.com/hashtag/todoxchile" data-widget-id="586524341438930944">#todoxchile Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
-          </div>
-        </div>
-      </div>
-
-        <div class="weare">
-            <h3>Quiénes somos</h3>
-            <ul class="list-inline">
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-                <li><img src="//placehold.it/100x100" alt=""></li>
-            </ul>
-        </div>
-
-        <div class="talk">
             <div id="disqus_thread"></div>
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES * * */
@@ -147,7 +100,13 @@
                     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
                 }());
             </script>
+          </div>
+          <div class="col-md-5">
+             <a class="twitter-timeline" href="https://twitter.com/hashtag/todoxchile" data-widget-id="586524341438930944">#todoxchile Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
+          </div>
         </div>
-    </div>
+      </div>
+  </div>
+
 </body>
 </html>
