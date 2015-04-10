@@ -1,6 +1,6 @@
 ---
 name: ComunidadMujer
 url: www.comunidadmujer.cl
-image:
-active: false
+image: comunidadmujer.png
+active: true
 ---

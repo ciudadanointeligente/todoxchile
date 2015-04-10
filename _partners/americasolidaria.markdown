@@ -1,6 +1,6 @@
 ---
 name: Fundación América Solidaria
 url: www.americasolidaria.org
-image:
-active: false
+image: americasolidaria.png
+active: true
 ---

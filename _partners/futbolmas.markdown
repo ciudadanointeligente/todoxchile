@@ -1,6 +1,6 @@
 ---
 name: Fútbol Más
 url: www.futbolmas.org
-image:
-active: false
+image: futbolmas.png
+active: true
 ---

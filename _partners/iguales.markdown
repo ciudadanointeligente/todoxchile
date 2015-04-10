@@ -1,6 +1,6 @@
 ---
 name: Fundación =Iguales
 url: www.iguales.cl
-image: logo-iguales.png
+image: iguales.png
 active: true
 ---

@@ -1,6 +1,6 @@
 ---
 name: Hogar de Cristo
 url: www.hogardecristo.cl
-image:
-active: false
+image: hogardecristo.png
+active: true
 ---
