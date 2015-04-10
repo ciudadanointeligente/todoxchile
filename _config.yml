@@ -1,12 +1,13 @@
 # setup
 title:       TodoXChile
 tagline:     'Unificando los esfuerzos para llegar con la ayuda de manera eficiente'
-edition: '#FuerzaNorte'
+edition:     '#FuerzaNorte'
 description: 'Herramienta de unificación de los esfuerzos de voluntarios y sociedad civil organizada para llegar con la ayuda de manera eficiente.'
-baseurl:     '/todoxchile' #example: 'http://www.todoxchile.org'
-basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.org'
+baseurl:     '/todoxchile' #example: 'http://www.todoxchile.cl'
+basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.cl'
 analytics:   'UA-31247996-1'
-#paginate:    5
+twitter:     '@ciudadanoi'
+hashtag:     '#FuerzaChile'
 
 # credits
 author:
@@ -19,5 +20,8 @@ highlighter: pygments
 
 # permalinks
 # use of `relative_permalinks` ensures post links from the index work properly.
-# permalink:   pretty #possible issues in GitHub Pages
 relative_permalinks: true
+
+collections:
+  partners:
+    output: true

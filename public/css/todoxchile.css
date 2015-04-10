@@ -56,7 +56,7 @@ h3 {
 }
 
 .rojito {
-  background-color: red;
+  background-color: #ff6039;
   margin-bottom: 25px;
 }
 
@@ -65,4 +65,13 @@ h3 {
   background-color: #fff;
   padding: 5px 10px;
   margin-bottom: 50px;
+}
+
+.weare {
+  margin-bottom: 25px;
+}
+
+.social {
+  padding-top: 25px;
+  background-color: #1d3b5a;
 }
