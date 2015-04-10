@@ -1,6 +1,6 @@
 <section id="partners" class="row">
 	<div class="col-sm-12">
-		<div id="carousel" class="owl-carousel">
+		<div id="carousel-partners" class="owl-carousel">
 			{% for partner in site.partners %}
 				<div class="item"><a href="#" data-toggle="modal" data-target="#{{ partner.id }}"><img src="{{ site.baseurl }}/public/img/partners/{{ partner.image }}" alt="{{ partner.name }}"></a></div>
 			{% endfor %}
@@ -34,6 +34,12 @@
 
 <script>
 $(document).ready(function() {
-	$("#carousel").owlCarousel();
+  $("#carousel-partners").owlCarousel({
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      autoPlay : 5000,
+      items : 4,
+      scrollPerPage: true
+  });
 });
 </script>
