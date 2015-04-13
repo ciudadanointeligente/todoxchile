@@ -7,7 +7,11 @@ baseurl:     '/todoxchile' #example: 'http://www.todoxchile.cl'
 basedomain:  'ciudadanointeligente.github.io' #example: 'todoxchile.cl'
 analytics:   'UA-31247996-1'
 twitter:     '@ciudadanoi'
-hashtag:     '#FuerzaChile'
+hashtag:     'TodoxChile'
+disqus:      'todoxchile'
+slide01:     '//farm8.staticflickr.com/7666/16904241940_01b43bc8dc_k.jpg'
+slide02:     '//farm8.staticflickr.com/7620/17091106221_5d0bb3086d_h.jpg'
+slide03:     '//farm8.staticflickr.com/7599/17091107231_edf39d5de5_k.jpg'
 
 # credits
 author:

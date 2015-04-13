@@ -2,149 +2,114 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">{{ site.title }}<span>{{ site.edition }}</span></a>
-        </div>
-      </div>
-    </nav>
-
-    <div class="header-img">
-        <div class="container">
-            <div class="slogan">
-                <h1>{{ site.tagline }}</h1>
-            </div>
-        </div>
-    </div>
-
-    <!--== Site Description ==-->
-    <div id="header">
-      <div class="header-bg">
-        <div id="preloader">
-          <div class="preloader"></div>
-        </div>
-        <div class="main-slider" id="main-slider">
-          <!--== Main Slider ==-->
-          <ul class="slides">
-            <li><img src="//farm8.staticflickr.com/7666/16904241940_01b43bc8dc_k.jpg" alt="Imagen 1"/></li>
-            <li><img src="//farm8.staticflickr.com/7620/17091106221_5d0bb3086d_h.jpg" alt="Imagen 2"/></li>
-            <li><img src="//farm8.staticflickr.com/7599/17091107231_edf39d5de5_k.jpg" alt="Imagen 3"/></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="rojito">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="acopio">
-              <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div>
-              <h3>Centros de acopio</h3>
-              <h4>Hogar de Cristo</h4>
-                <ul>
-                  <li>Jotabeche 867, Estación Central.</li>
-                  <li>Av Manquehue Sur 116, Las Condes.</li>
-                  <li>Av Camino Real 4518, Lo Barnechea.</li>
-                  <li>Municipalidad de Talagante. Av 21 de Mayo 875, Talagante.</li>
-                </ul>
-              <h4>Desafío Levantemos Chile</h4>
-                <ul>
-                  <li>Av Los Loros 1850, Copiapó-Atacama.</li>
-                  <li>Camino el Alba 9231, Las Condes.</li>
-                  <li>Sta Teresa 1625, Estación Central.</li>
-                  <li>Av del Valle 14500, Colina.</li>
-                  <li>La Serena: EASY, Parcela 69 - Ruta 5 Norte.</li>
-                  <li>Vicuña: Radio Astronómica, José Miguel Carrera 284.</li>
-                </ul>
-              <h4>Centro Cultural Estación Mapocho</h4>
-                <ul>
-                  <li>Sólo agua en Plaza de la Cultura S/N Metro Cal y Canto, Santiago.</li>
-                </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="voluntariado">
-              <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-voluntariado.svg"></div>
-              <h3>Voluntariado</h3>
-              {% include form-voluntarios.html %}
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="donaciones">
-              <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div>
-              <h3>Donaciones</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid pariatur optio, ad recusandae alias blanditiis aperiam laboriosam vero mollitia consequuntur eos nisi commodi, unde rem adipisci modi eveniet, sint aut!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
+  <!-- fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <div class="weare">
-          <h3>Quiénes somos</h3>
-            {% include partners.html %}
-<!--           <ul class="list-inline">
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-              <li><img src="//placehold.it/100x100" alt=""></li>
-          </ul> -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">{{ site.title }}<span>{{ site.edition }}</span></a>
       </div>
     </div>
+  </nav>
 
-    <div class="social">
+  <div class="header-img">
       <div class="container">
-        <div class="row">
-          <div class="col-md-7">
-            <div id="disqus_thread"></div>
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES * * */
-                var disqus_shortname = 'todoxchile';
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function() {
-                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-            <script type="text/javascript">
-                /* * * CONFIGURATION VARIABLES * * */
-                var disqus_shortname = 'todoxchile';
-
-                /* * * DON'T EDIT BELOW THIS LINE * * */
-                (function () {
-                    var s = document.createElement('script'); s.async = true;
-                    s.type = 'text/javascript';
-                    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-                    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-                }());
-            </script>
+          <div class="slogan">
+              <h1>{{ site.tagline }}</h1>
           </div>
-          <div class="col-md-5">
-             <a class="twitter-timeline" href="//twitter.com/hashtag/todoxchile" data-widget-id="586524341438930944">#todoxchile Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          </div>
-        </div>
       </div>
   </div>
+
+  <!-- site description -->
+  <div id="header">
+    <div class="header-bg">
+      <div id="preloader">
+        <div class="preloader"></div>
+      </div>
+      <div class="main-slider" id="main-slider">
+        <!-- main slider -->
+        <ul class="slides">
+          <li><img src="{{ site.slide01 }}" alt="Image 1"/></li>
+          <li><img src="{{ site.slide02 }}" alt="Image 2"/></li>
+          <li><img src="{{ site.slide03 }}" alt="Image 3"/></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="rojito">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="acopio">
+            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div>
+            {% include box_centre-of-gathering.html %}
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="voluntariado">
+            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-voluntariado.svg"></div>
+            {% include box_volunteering.html %}
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="donaciones">
+            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div>
+            {% include box_donations.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="weare">
+      {% include partners.html %}
+    </div>
+  </div>
+
+  <div class="social">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = '{{ site.disqus }}';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES * * */
+              var disqus_shortname = '{{ site.disqus }}';
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function () {
+                  var s = document.createElement('script'); s.async = true;
+                  s.type = 'text/javascript';
+                  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+              }());
+          </script>
+        </div>
+        <div class="col-md-5">
+           <a class="twitter-timeline" href="//twitter.com/hashtag/{{ site.hashtag }}" data-widget-id="586524341438930944">#{{ site.hashtag }} Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
 </body>
 </html>
