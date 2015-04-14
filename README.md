@@ -1,6 +1,6 @@
-# Todo x Chile
+# TodoXChile
 
-Todo x Chile is a [Jekyll](http://jekyllrb.com) app. An emergency kit for the coordination of support, display of tools for localization and volunteer activities.
+An emergency kit for the coordination of support, display of tools for localization and volunteer activities. TodoXChile is powered by [Jekyll](http://jekyllrb.com).
 
 
 ## License
@@ -9,11 +9,11 @@ Open sourced under the [MIT license](LICENSE.md).
 
 <!-- ## Thanks you!
 
-Todo x Chile is made possible by the continued contributions and insights from kind-hearted developers everywhere. Just to name a few:
+TodoXChile is made possible by the continued contributions and insights from kind-hearted developers everywhere. Just to name a few:
 
 * [@rezzo](https://github.com/rezzo)
-* [@camargozzini](https://github.com/camargozzini)
-* [@pablocollada](https://github.com/pablocollada) -->
+* [@jdgarrido](https://github.com/jdgarrido)
+* [@camargozzini](https://github.com/camargozzini) -->
 
 ### Everything else:
 
