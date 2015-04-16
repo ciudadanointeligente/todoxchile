@@ -32,7 +32,7 @@ layout: default
     <div class="row">
       <div class="col-md-4">
         <div class="donaciones">
-          <a href="#" data-toggle="modal" data-target="#donations"><div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div></a>
+          <div class="text-center"><a href="#" data-toggle="modal" data-target="#donations"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></a></div>
           {% include box_donations.html %}
         </div>
       </div>
@@ -44,7 +44,7 @@ layout: default
       </div>
       <div class="col-md-4">
         <div class="acopio">
-          <a href="#" data-toggle="modal" data-target="#centre-of-gathering"><div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div></a>
+          <div class="text-center"><a href="#" data-toggle="modal" data-target="#centre-of-gathering"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></a></div>
           {% include box_centre-of-gathering.html %}
         </div>
       </div>
@@ -63,7 +63,9 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-7">
-        <!-- INSTANSIVE WIDGET --><script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/3b51690b26050deb640583cc16d2590b819a8be1.html" id="instansive_3b51690b26" name="instansive_3b51690b26"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+        <!-- INSTANSIVE WIDGET -->
+        <script src="//instansive.com/widget/js/instansive.js"></script>
+        <iframe src="//instansive.com/widgets/3b51690b26050deb640583cc16d2590b819a8be1.html" id="instansive_3b51690b26" name="instansive_3b51690b26"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
       </div>
 
       <div class="col-md-5">
@@ -72,14 +74,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<!-- news -->
-<section id="news" class="container">
-  <div class="section-header text-center">
-    <h2>Noticias</h2>
-    <h4>Que está pasando en la comunidad</h4>
-  </div>
-  <div class="text-width">
-    {% include feed-news.html %}
-  </div>
-</section>

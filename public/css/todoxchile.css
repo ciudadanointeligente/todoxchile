@@ -1,6 +1,5 @@
 body {
   padding-top: 0px;
-  padding-bottom: 30px;
   color: #1B395B;
   font-family: 'Roboto', sans-serif;
 }
@@ -23,7 +22,7 @@ h3 {
   font-size: 28px;
   font-weight: 100;
   margin: 20px 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 /*Header*/
@@ -117,6 +116,7 @@ Header CTA ========*/
   background-color: rgba(255, 255, 255, 0.7);
   padding: 25px 10px;
   margin-bottom: 50px;
+  min-height: 285px;
 }
 
 .weare {
@@ -126,7 +126,6 @@ Header CTA ========*/
 .social {
   padding-top: 25px;
   background-color: #1d3b5a;
-<<<<<<< HEAD
 }
 
 /*Btn*/
@@ -202,10 +201,8 @@ select {
   width: 100%;
 }
 
-#disqus_thread {
-  background-color: #FFF;
-  padding: 20px;
-  border-radius: 5px;
+#news {
+  margin-bottom: 20px;
 }
 
 .footer-contact {
@@ -214,4 +211,18 @@ select {
 
 .footer-contact li {
   padding: 3px
+}
+
+.footer-bg {
+  padding-top: 20px;
+  background-color: #EEE;
+}
+
+/*** internal pages ***/
+.page-int {
+  margin-top: 90px;
+}
+
+h3 small {
+  font-size: 45%;
 }
