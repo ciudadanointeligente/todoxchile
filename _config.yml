@@ -7,6 +7,7 @@ baseurl:     'http://www.todoxchile.cl' #example: 'http://www.todoxchile.cl' OR 
 basedomain:  'todoxchile.cl' #example: 'todoxchile.cl' OR 'ciudadanointeligente.github.io'
 analytics:   'UA-41822715-5'
 twitter:     '@ciudadanoi'
+twitter_txt: 'Soy parte y hacemos #TodoXChile'
 hashtag:     'TodoXChile'
 disqus:      'todoxchile'
 slide01:     '//farm8.staticflickr.com/7666/16904241940_01b43bc8dc_k.jpg'
