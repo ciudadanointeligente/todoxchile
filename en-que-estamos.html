@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h3>En que estamos</h3>
+
+{% for partner in site.partners %}
+	{% if partner.id != null %}
+		<h2>{{ partner.name }}</h2> <a href="http://{{ partner.web }}" target="_blank"><i class="fa fa-external-link"></i></a>
+		<p>{{ partner.content }}</p>
+		<br/><br/>
+	{% endif %}
+{% endfor %}
