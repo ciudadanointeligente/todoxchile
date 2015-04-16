@@ -3,7 +3,7 @@ id: sicologos-voluntarios
 name: Psicologos Voluntarios
 url: www.psicologosvoluntarios.cl
 image: psicologosvoluntarios.png
-active: false
+active: true
 ---
 Está trabajando junto al Colegio de Psicólogos, SOCHPED y Mujer Opina.
 

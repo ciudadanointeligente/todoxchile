@@ -3,7 +3,7 @@ id: greenpeace
 name: GreenPeace
 url: www.greenpeace.org/chile
 image: greenpeace.png
-active: false
+active: true
 ---
 Es parte de esta red solidaria "Todo xChile" colaborando con lo ocurrido en  el norte de nuestro país.
 
