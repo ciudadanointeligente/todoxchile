@@ -1,7 +1,7 @@
 ---
 id: anar-chile
 name: Fundación Anar Chile
-url: www.anarchile.cl
+web: www.anarchile.cl
 image: anarchile.png
 active: true
 ---

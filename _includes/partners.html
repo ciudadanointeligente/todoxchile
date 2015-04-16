@@ -3,7 +3,9 @@
 	<div class="col-sm-12">
 		<div id="carousel-partners" class="owl-carousel">
 			{% for partner in site.partners %}
-				<div class="item"><a href="#" data-toggle="modal" data-target="#{{ partner.id }}"><img src="{{ site.baseurl }}/public/img/partners/{{ partner.image }}" alt="{{ partner.name }}"></a></div>
+				{% if partner.active == true %}
+					<div class="item"><a href="http://{{ partner.web }}" target="_blank"><img src="{{ site.baseurl }}/public/img/partners/{{ partner.image }}" alt="{{ partner.name }}"></a></div>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div class="owl-carousel-navigation">
@@ -12,26 +14,6 @@
 		</div>
 	</div>
 </section>
-
-{% for partner in site.partners %}
-{% if partner.id != null %}
-<!-- modal -->
-<div class="modal fade" id="{{ partner.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">¿Qué estamos haciendo?</h4>
-			</div>
-			<div class="modal-body">
-				{{ partner.content }}
-			</div>
-		</div>
-	</div>
-</div>
-<!-- end modal -->
-{% endif %}
-{% endfor %}
 
 <script>
 $(document).ready(function() {

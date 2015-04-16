@@ -1,7 +1,7 @@
 ---
 id: maraton-santiago
 name: Maraton de Santiago
-url: www.maratondesantiago.com
+web: www.maratondesantiago.com
 image: maratondesantiago.png
 active: true
 ---

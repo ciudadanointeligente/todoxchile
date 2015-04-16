@@ -1,6 +1,6 @@
 ---
 name: ONG FIMA (Fiscalía del Medio Ambiente)
-url: www.fima.cl
+web: www.fima.cl
 image: fima.png
 active: true
 ---

@@ -1,7 +1,7 @@
 ---
 id: hogar-de-cristo
 name: Hogar de Cristo
-url: www.hogardecristo.cl
+web: www.hogardecristo.cl
 image: hogardecristo.png
 active: true
 ---

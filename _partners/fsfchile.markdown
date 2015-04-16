@@ -1,7 +1,7 @@
 ---
 id: fsfchile
 name: Farmacéuticos Sin Fronteras Chile
-url: www.fsfchile.cl
+web: www.fsfchile.cl
 image: fsfchile.png
 active: true
 ---

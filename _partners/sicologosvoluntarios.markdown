@@ -1,7 +1,7 @@
 ---
 id: sicologos-voluntarios
 name: Psicologos Voluntarios
-url: www.psicologosvoluntarios.cl
+web: www.psicologosvoluntarios.cl
 image: psicologosvoluntarios.png
 active: true
 ---

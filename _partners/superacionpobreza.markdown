@@ -1,7 +1,7 @@
 ---
 id: fusupo
 name: Fundación Superación de la Pobreza
-url: www.superacionpobreza.cl
+web: www.superacionpobreza.cl
 image: superacionpobreza.png
 active: true
 ---

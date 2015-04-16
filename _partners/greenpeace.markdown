@@ -1,7 +1,7 @@
 ---
 id: greenpeace
 name: GreenPeace
-url: www.greenpeace.org/chile
+web: www.greenpeace.org/chile
 image: greenpeace.png
 active: true
 ---

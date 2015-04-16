@@ -1,6 +1,6 @@
 ---
 name: Fundación Banigualdad
-url: www.banigualdad.cl
+web: www.banigualdad.cl
 image: banigualdad.png
 active: true
 ---

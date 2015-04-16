@@ -1,7 +1,7 @@
 ---
 id: patronato-nac-de-la-infancia
 name: Patronato Nacional de la Infancia
-url: www.patronato.cl
+web: www.patronato.cl
 image: patronato-infancia.png
 active: true
 ---

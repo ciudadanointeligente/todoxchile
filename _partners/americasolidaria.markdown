@@ -1,7 +1,7 @@
 ---
 id: america-solidaria
 name: Fundación América Solidaria
-url: www.americasolidaria.org
+web: www.americasolidaria.org
 image: americasolidaria.png
 active: true
 ---

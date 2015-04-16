@@ -1,7 +1,7 @@
 ---
 id: opcion
 name: Opción
-url: www.opcion.cl
+web: www.opcion.cl
 image: opcion.jpg
 active: true
 ---

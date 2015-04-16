@@ -1,7 +1,7 @@
 ---
 id: comunidad-mujer
 name: ComunidadMujer
-url: www.comunidadmujer.cl
+web: www.comunidadmujer.cl
 image: comunidadmujer.png
 active: true
 ---

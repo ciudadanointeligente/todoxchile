@@ -1,6 +1,6 @@
 ---
 name: Fundación Ciudadano Inteligete
-url: www.ciudadanointeligente.org
+web: www.ciudadanointeligente.org
 image: ciudadanoi.png
 active: true
 ---

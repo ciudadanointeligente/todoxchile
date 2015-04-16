@@ -1,7 +1,7 @@
 ---
 id: desafio-levantemos-chile
 name: Desafío Levantemos Chile
-url: www.desafiolevantemoschile.cl
+web: www.desafiolevantemoschile.cl
 image: desafio.png
 active: true
 ---

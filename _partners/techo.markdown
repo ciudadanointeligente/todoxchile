@@ -1,7 +1,7 @@
 ---
 id: techo
 name: TECHO | Juntos por un mundo sin pobreza
-url: www.techo.org
+web: www.techo.org
 image: techo.png
 active: true
 ---

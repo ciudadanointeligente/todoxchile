@@ -1,7 +1,7 @@
 ---
 id: world-vision
 name: World Vision
-url: www.world-vision.org
+web: www.world-vision.org
 image: world-vision.jpg
 active: true
 ---

@@ -1,7 +1,7 @@
 ---
 id: fundacion-iguales
 name: Fundación =Iguales
-url: www.iguales.cl
+web: www.iguales.cl
 image: iguales.png
 active: true
 ---

@@ -1,6 +1,6 @@
 ---
 name:
-url:
+web:
 image:
 active: false
 ---
