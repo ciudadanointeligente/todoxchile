@@ -2,12 +2,17 @@
 layout: default
 ---
 
-<h3>En que estamos</h3>
+<div class="container">
+	<div class="text-center page-int">
+		<h2>En que estamos</h2>
+	</div>
 
-{% for partner in site.partners %}
-	{% if partner.id != null %}
-		<h2>{{ partner.name }}</h2> <a href="http://{{ partner.web }}" target="_blank"><i class="fa fa-external-link"></i></a>
-		<p>{{ partner.content }}</p>
-		<br/><br/>
-	{% endif %}
-{% endfor %}
+	{% for partner in site.partners %}
+		{% if partner.id != null %}
+			<div class="page-header">
+				<h3>{{ partner.name }} <small><a href="http://{{ partner.web }}" target="_blank"><i class="fa fa-external-link"></i></a></small></h3>
+			</div>
+			<p>{{ partner.content }}</p>
+		{% endif %}
+	{% endfor %}
+</div>
