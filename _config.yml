@@ -1,7 +1,7 @@
 # setup
 title:       TodoXChile
 tagline:     'Unificando los esfuerzos para llegar con la ayuda de manera eficiente'
-edition:     '#FuerzaNorte'
+edition:     '' #'#FuerzaNorte'
 description: 'Herramienta de unificación de los esfuerzos de voluntarios y sociedad civil organizada para llegar con la ayuda de manera eficiente.'
 baseurl:     'http://www.todoxchile.cl' #example: 'http://www.todoxchile.cl' OR '/todoxchile'
 basedomain:  'todoxchile.cl' #example: 'todoxchile.cl' OR 'ciudadanointeligente.github.io'
