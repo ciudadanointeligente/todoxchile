@@ -1,6 +1,6 @@
 # setup
 title:       TodoXChile
-tagline:     'Unificando los esfuerzos para llegar con la ayuda de manera eficiente'
+tagline:     'Somos organizaciones de la sociedad civil que trabajan en emergencia, pobreza, infancia, educación, medioambiente, vivienda, voluntariado, cooperación internacional, salud, capacitación, género, DD.HH. y en diversas otras temáticas, que, dejando de lado nuestras agendas, hemos armado una inédita mesa de coordinación nacional de ayuda frente a la catástrofe del norte de Chile.<br/><br/> Estamos en directa coordinación con la ONEMI, el gobierno regional y el Ministerio de Desarrollo Social.'
 edition:     '' #'#FuerzaNorte'
 description: 'Herramienta de unificación de los esfuerzos de voluntarios y sociedad civil organizada para llegar con la ayuda de manera eficiente.'
 baseurl:     'http://www.todoxchile.cl' #example: 'http://www.todoxchile.cl' OR '/todoxchile'

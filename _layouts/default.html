@@ -12,7 +12,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">{{ site.title }}<span>{{ site.edition }}</span></a>
+        <a class="navbar-brand" href="#">#{{ site.title }}<span>{{ site.edition }}</span></a>
       </div>
     </div>
   </nav>
@@ -46,9 +46,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="acopio">
-            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div>
-            {% include box_centre-of-gathering.html %}
+          <div class="donaciones">
+            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div>
+            {% include box_donations.html %}
           </div>
         </div>
         <div class="col-md-4">
@@ -58,9 +58,9 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="donaciones">
-            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div>
-            {% include box_donations.html %}
+          <div class="acopio">
+            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div>
+            {% include box_centre-of-gathering.html %}
           </div>
         </div>
       </div>
@@ -76,34 +76,7 @@
   <div class="social">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-              /* * * CONFIGURATION VARIABLES * * */
-              var disqus_shortname = '{{ site.disqus }}';
 
-              /* * * DON'T EDIT BELOW THIS LINE * * */
-              (function() {
-                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-              })();
-          </script>
-          <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-          <script type="text/javascript">
-              /* * * CONFIGURATION VARIABLES * * */
-              var disqus_shortname = '{{ site.disqus }}';
-
-              /* * * DON'T EDIT BELOW THIS LINE * * */
-              (function () {
-                  var s = document.createElement('script'); s.async = true;
-                  s.type = 'text/javascript';
-                  s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-                  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-              }());
-          </script>
-        </div>
         <div class="col-md-5">
            <a class="twitter-timeline" href="//twitter.com/hashtag/{{ site.hashtag }}" data-widget-id="586524341438930944">#{{ site.hashtag }} Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
