@@ -2,87 +2,10 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <!-- fixed navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">#{{ site.title }}<span>{{ site.edition }}</span></a>
-      </div>
-    </div>
-  </nav>
+  {% include header.html %}
 
-  <div class="header-img">
-      <div class="container">
-          <div class="slogan">
-              <h1>{{ site.tagline }}</h1>
-          </div>
-      </div>
-  </div>
+  {{ content }}
 
-  <!-- site description -->
-  <div id="header">
-    <div class="header-bg">
-      <div id="preloader">
-        <div class="preloader"></div>
-      </div>
-      <div class="main-slider" id="main-slider">
-        <!-- main slider -->
-        <ul class="slides">
-          <li><img src="{{ site.slide01 }}" alt="Image 1"/></li>
-          <li><img src="{{ site.slide02 }}" alt="Image 2"/></li>
-          <li><img src="{{ site.slide03 }}" alt="Image 3"/></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="rojito">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="donaciones">
-            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-donaciones.svg"></div>
-            {% include box_donations.html %}
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="voluntariado">
-            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-voluntariado.svg"></div>
-            {% include box_volunteering.html %}
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="acopio">
-            <div class="text-center"><img src="{{ site.baseurl }}/public/img/icono-acopio.svg"></div>
-            {% include box_centre-of-gathering.html %}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="weare">
-      {% include partners.html %}
-    </div>
-  </div>
-
-  <div class="social">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-5">
-           <a class="twitter-timeline" href="//twitter.com/hashtag/{{ site.hashtag }}" data-widget-id="586524341438930944">#{{ site.hashtag }} Tweets</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-      </div>
-    </div>
-  </div>
   {% include footer.html %}
 </body>
 </html>
