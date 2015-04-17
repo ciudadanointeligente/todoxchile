@@ -1,18 +1,8 @@
-<div class="text-center">
-	<h3>Donaciones</h3>
-</div>
-<p>Puedes aportar desde Chile o el extranjero a través de las cuentas que diversas organizaciones han abierto para este fin.</p>
-
-<!-- modal -->
-<div class="modal fade" id="donations" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-donations" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel-donations">Donaciones</h4>
-			</div>
-			<div class="modal-body">
-				<h4>Desafío Levantemos Chile</h4>
+<script>
+    $(document).on("click", ".alert", function(e) {
+      bootbox.dialog({
+                      title: "Donaciones",
+                      message: '<h4>Desafío Levantemos Chile</h4>
 				<ul>
 					<li>Banco: Banco de Chile</li>
 					<li>Número de cuenta: 98027-07</li>
@@ -63,9 +53,24 @@
 					<li>Número de cuenta: 399406-6</li>
 					<li>RUT: 65.533.130-1</li>
 					<li>Correo electrónico: <a href="mailto:recursos.chile@techo.org">recursos.chile@techo.org</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+				</ul>',
+                      buttons: {
+                          success: {
+                              label: "Save",
+                              className: "btn-success",
+                              callback: function () {
+                                  var name = $('#name').val();
+                                  var answer = $("input[name='awesomeness']:checked").val()
+                                  Example.show("Hello " + name + ". You've chosen <b>" + answer + "</b>");
+                              }
+                          }
+                      }
+                  }
+              );
+    });
+  </script>
+
+<div class="text-center">
+	<h3>Donaciones</h3>
 </div>
-<!-- end modal -->
+<p>Puedes aportar desde Chile o el extranjero a través de las cuentas que diversas organizaciones han abierto para este fin.</p>
