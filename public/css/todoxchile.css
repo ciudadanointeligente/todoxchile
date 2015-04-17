@@ -226,3 +226,21 @@ select {
 h3 small {
   font-size: 45%;
 }
+
+.social-share {
+  top: -50px;
+  position: relative;
+  z-index: 50;
+}
+
+.social-share a {
+  color: #FFF;
+}
+
+.share {
+  background-color: #1d3b5a;
+  border-radius: 35px;
+  padding: 5px;
+  margin: 0px 5px;
+  width: 52px;
+}
