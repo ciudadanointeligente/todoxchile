@@ -7,30 +7,57 @@ active: true
 ---
 Desafío Levantemos Chile está en terreno desde el segundo día de la catástrofe, trabajando en seis focos de acción:
 
-El barro es el enemigo:
+1.) El barro es el enemigo
 
-Con el fin de ayudar a las comunidades afectadas a sacar el barro de sus hogares, se está desarrollando la campaña “El barro es el enemigo”, con el fin de solicitar aportes económicos para enviar 3.000 “Kits de emergencia Atacama”, que incluyen una carretilla, dos palas, un par de botas de goma, un par de guantes y un set de cinco mascarillas.La entrega a las comunidades afectadas será coordinada por el Ejército de Chile. El 9 de abril se entregaron los primeros 350 kits. Los aportes se pueden hacer en www.desafiolevantemoschile.cl
+a.	Entrega de KEA (Kit Emergencia Atacama)
+Gracias al aporte de cientos de donantes, Desafío Levantemos Chile cumplió la meta de juntar 3 mil KEA (Kit Emergencia Atacama) para apoyar en el retiro del barro de las casas. Estos consisten en una carretilla, dos palas, un par de botas, un par de guantes y un set de cinco mascarillas. La entrega a los damnificados está siendo coordinada por el Ejército de Chile.
 
-Por otro lado, grupos de voluntarios están ayudando a retirar el barro de las casas en distintas localidades.
+b.	Envío de cuadrillas de voluntarios para limpieza
+A partir de las próximas semanas, Desafío Levantemos Chile enviará a la zona afectada dos cuadrillas de 200 voluntarios jóvenes a ayudar en las labores de retiro del barro de las casas en la zona de Paipote.
 
-Educación:
 
-Desafío va a reconstruir dos jardines infantiles y está trabajado en la habilitación de un tercero. Se están levantando los recursos para reconstruir dos más.
+2.) Educación
 
-Salud
+a.	Reconstrucción de un jardín infantil
+Desafío Levantemos Chile se comprometió en la reconstrucción de un jardín infantil. El equipo de Educación de la fundación se encuentra actualmente en terreno haciendo un levantamiento de información para definir la localidad en que se levantará.
 
-El Ministerio de Salud le solicitó a Desafío Levantemos Chile hacerse cargo del apoyo con médicos y profesionales de la salud voluntarios al Hospital de Chañaral, en coordinación con la Clínica Las Condes.
+b.	Habilitación de jardines infantiles
+Se realizó la habilitación (retiro del barro, limpieza e implementación) del jardín infantil “Zorzalitos” de la localidad de Los Loros, en conjunto con Minera Caserones. Se trabajó en el retiro del barro, sanitización, pintura, instalación de piso e implementación con muebles y juegos.
 
-La fundación construirá el Cesfam (Centro de Salud Familiar) de Chañaral, que fue completamente destruido.
+Adicionalmente, se realizará la habilitación de otros cinco jardines infantiles en localidades que serán definidas luego del levantamiento de información que está realizando el equipo de Educación.
 
-Emprendimiento y trabajo
 
-Se está trabajando en un proyecto para apoyar a los comerciantes de Chañaral afectados por la catástrofe. Ello, en coordinación con distintas organizaciones como IF, Asech, Sistema B, Fondo Esperanza, Simón de Cirene, Acción Emprendedora, SocialLab, Wingzoft y Ewin.
+3.) Salud
 
-Entrega de donaciones y ayuda
+a.	Apoyo médico al Hospital de Chañaral
+Desafío Levantemos Chile se está haciendo cargo del apoyo al Hospital de Chañaral,  solicitud del Ministerio de Salud y en coordinación con la Clínica Las Condes:
+o   Coordinación de dotación de médicos voluntarios y profesionales de la salud voluntarios, de distintos centros de salud: enfermería, kinesiología, ginecología, traumatología, gastroenterología, psiquiatría, pediatría, broncopulmonar, dermatología, urgenciología, oftalmología y psicología, entre otros.
+o   Coordinación para el apoyo de implementos médicos:
+§  Instalación por dos meses de una clínica ginecológica móvil (con dos box de atención), facilitada por la Municipalidad de Santa Cruz
+§  Atención durante un día de una clínica oftalmológica Rotter y Krauss
+§  Un ecógrafo 3D, de la Clínica Las Condes
+§  Un ecocardiógrafo
+§  Recepción de donaciones de medicamentos
+
+b.	Reconstrucción de Cesfam (Centro de Salud Familiar) de Chañaral
+La fundación reconstruirá el Cesfam (Centro de Salud Familiar) de Chañaral, que fue completamente destruido. Tendrá una capacidada para atender a 9.000 personas
+
+
+4.) Emprendimiento y trabajo
+
+a.	Construcción de boulevard para el comercio en Chañaral
+Se habilitarán entre 30 y 40 locales para comerciantes que perdieron sus negocios. Ello, a través de un proyecto arquitectónico para transformar el paseo Lord Cochrane en un boulevard que sea el polo de comercio de la ciudad.
+
+b.	Apoyo a los emprendedores afectados
+Se está levantando una plataforma orientada a que emprendedores del  país puedan ayudar a emprendedores de Chañaral afectados. Ello, en coordinación con distintas organizaciones como IF, Asech, Sistema B, Fondo Esperanza, Simón de Cirene, Acción Emprendedora, SocialLab, Wingzoft y Ewin.
+
+c.	Entrega de embarcación a pescadores de Pan de Azúcar
+Desafío Levantemos Chile apoyará al sindicado de pescadores de Pan de Azúcar, que perdió la embarcación con la que realizaban viajes turísticos en el parque nacional. Se les entregará un nuevo bote con los implementos de seguridad, para que puedan retomar prontamente su fuente de ingresos.
+
+5.) Retenes de Carabineros
+
+A través de una donación de una empresa, Desafío Levantemos Chile coordina la instalación de módulos temporales para que puedan funcionar los retenes de Carabineros destruidos en Copiapó, El Salado, Diego de Almagro y Sacramento.
+
+6.) Entrega de donaciones y ayuda
 
 Desafío Levantemos Chile ha enviado 500 toneladas de ayuda (agua, alimentos y artículos de aseo) a las zonas afectadas, que están siendo distribuidas a través de dos  centros de acopio en Copiapó. Esta ayuda fue conseguida gracias a las donaciones generosas de miles de personas y empresas.
-
-Retenes de Carabineros
-
-La fundación instalará módulos temporales para que puedan funcionar los retenes de Carabineros destruidos en Copiapó, El Salado, Diego de Almagro y Sacramento.
