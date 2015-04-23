@@ -5,14 +5,16 @@ web: www.superacionpobreza.cl
 image: superacionpobreza.png
 active: true
 ---
-Campaña para recolectar colaciones para profesionales y voluntarios en terreno en coordinación con Hogar de Cristo y Fundación Paréntesis.
+- Los Profesionales SP siguen en el castrato de vivienda en la comuna de Diego de Almagro, Salado (localidad), Chañaral, Copiapó, Tierra Amarilla y Alto del Carmen, (hemos estado en todas las comunas afectadas), esta semana  pudiera concluir este trabajo, está por confirmar.
 
-Catastro de viviendas en coordinación con Serviu y Minvu en Copiapó y Tierra Amarilla.
+- Con alumnas en práctica hemos realizado trabajo en albergue del sector del Palomar en Copiapó, con actividades recreativas y educativas con los niños.
 
-En Alto del Carmen se trabaja con encargado provincial, equipo técnico de Serviu  y un profesional SP geógrafo, para georeferenciar los caminos en el sector.
+- Con alumna en práctica hemos apoyado a la SEREMI MDS en la digitalización de la Ficha EFU durante toda la semana.
 
-Por el momento apoyan a municipios en centros de acopio para entrega de alimentos.
+- Hemos apoyado a la SEREMI MDS en la difusión de los lugares de aplicación de la ficha EFU en Copiapó.
 
-Profesionales de Caldera y Tierra Amarilla, apoyaron al municipio de Chañaral  en aplicación de encuesta única familiar.
+- En coordinación con Caritas se va a conformar mesas de trabajo por ámbito, con el fin de no sobre intervenir en temas de niños, adultos mayores, inmigrantes, etc.
 
-Apoyo en la aplicación de la encuesta única familiar y digitalización, donde estarán colaborando durante una semana.
+- Se continúa apoyando la convocatoria de Voluntarios en coordinación con el MDS, Hogar de Cristo, TECHO, Caritas e INJUV. El viernes se realizó un punto de prensa para mismo fin.
+ 
+- Esta semana se participó de una capacitación de Psicólogos voluntarios por Chile, con la SEREMI de Salud.
