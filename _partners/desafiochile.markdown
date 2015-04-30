@@ -64,7 +64,7 @@ a.	Campañas: Bajo el llamado #elbarroeselenemigo, Desafío recaudó fondos para
 *Status: Finalizado 24 abril*
 
 b.	Cuadrillas de retiro de barro: Diversos grupos de voluntarios han trabajado en las comunidades ayudando a las familias a retirar el barro de sus casas.
-     Status: En desarrollo
+*Status: En desarrollo*
 
 
 **Campañas de recepción y envío de donaciones**
