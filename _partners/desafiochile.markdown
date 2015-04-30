@@ -5,59 +5,76 @@ web: www.desafiolevantemoschile.cl
 image: desafio.png
 active: true
 ---
-Desafío Levantemos Chile está en terreno desde el segundo día de la catástrofe, trabajando en seis focos de acción:
+Desafío Levantemos Chile está en terreno desde el segundo día de la catástrofe, trabajando en siete focos de acción:
 
-1.) El barro es el enemigo
+1.	Efecto Desafío Paipote
+Reconstrucción de barrio completamente destruido en Paipote Antiguo:
+-	32 viviendas 
+-	1 sede social
+-	Áreas verdes
+-	Calles y veredas
+-	Alcantarillado, electricidad
+Status: En desarrollo (Plazo estimado julio 2015)
 
-a.	Entrega de KEA (Kit Emergencia Atacama)
-Gracias al aporte de cientos de donantes, Desafío Levantemos Chile cumplió la meta de juntar 3 mil KEA (Kit Emergencia Atacama) para apoyar en el retiro del barro de las casas. Estos consisten en una carretilla, dos palas, un par de botas, un par de guantes y un set de cinco mascarillas. La entrega a los damnificados está siendo coordinada por el Ejército de Chile.
+2.	Educación - Reconstrucción de jardines infantiles
+a.	Reconstrucción y habilitación (retiro del barro, limpieza, sanitización, pintura, reposición de mobiliario afectado):
+-	Zorzalito - Los Loros
+Status: Finalizado
+- 	Los restantes por definir
 
-b.	Envío de cuadrillas de voluntarios para limpieza
-A partir de las próximas semanas, Desafío Levantemos Chile enviará a la zona afectada dos cuadrillas de 200 voluntarios jóvenes a ayudar en las labores de retiro del barro de las casas en la zona de Paipote.
-
-
-2.) Educación
-
-a.	Reconstrucción de un jardín infantil
-Desafío Levantemos Chile se comprometió en la reconstrucción de un jardín infantil. El equipo de Educación de la fundación se encuentra actualmente en terreno haciendo un levantamiento de información para definir la localidad en que se levantará.
-
-b.	Habilitación de jardines infantiles
-Se realizó la habilitación (retiro del barro, limpieza e implementación) del jardín infantil “Zorzalitos” de la localidad de Los Loros, en conjunto con Minera Caserones. Se trabajó en el retiro del barro, sanitización, pintura, instalación de piso e implementación con muebles y juegos.
-
-Adicionalmente, se realizará la habilitación de otros cinco jardines infantiles en localidades que serán definidas luego del levantamiento de información que está realizando el equipo de Educación.
-
-
-3.) Salud
-
+3.	Salud
 a.	Apoyo médico al Hospital de Chañaral
-Desafío Levantemos Chile se está haciendo cargo del apoyo al Hospital de Chañaral,  solicitud del Ministerio de Salud y en coordinación con la Clínica Las Condes:
-o   Coordinación de dotación de médicos voluntarios y profesionales de la salud voluntarios, de distintos centros de salud: enfermería, kinesiología, ginecología, traumatología, gastroenterología, psiquiatría, pediatría, broncopulmonar, dermatología, urgenciología, oftalmología y psicología, entre otros.
-o   Coordinación para el apoyo de implementos médicos:
-§  Instalación por dos meses de una clínica ginecológica móvil (con dos box de atención), facilitada por la Municipalidad de Santa Cruz
-§  Atención durante un día de una clínica oftalmológica Rotter y Krauss
-§  Un ecógrafo 3D, de la Clínica Las Condes
-§  Un ecocardiógrafo
-§  Recepción de donaciones de medicamentos
+-	Coordinación de dotación de médicos voluntarios y profesionales de la salud voluntarios
 
-b.	Reconstrucción de Cesfam (Centro de Salud Familiar) de Chañaral
-La fundación reconstruirá el Cesfam (Centro de Salud Familiar) de Chañaral, que fue completamente destruido. Tendrá una capacidada para atender a 9.000 personas
+-	Coordinación para el apoyo de implementos médicos:
+o	Instalación por dos meses de una clínica ginecológica móvil (con dos box de atención)
+o	Un ecógrafo 3D
+o	Un ecocardiógrafo
+o	Atención durante un día de una clínica oftalmológica 
+o	Recepción de donaciones de medicamentos
+     Status: En actividad desde el tercer día de la catástrofe
 
+b.	Reconstrucción de Cesfam (Centro de Salud Familiar) de Chañaral: Tendrá una capacidad para atender a 5.000 personas.
+Status: En desarrollo (Plazo estimado aún no definido)
 
-4.) Emprendimiento y trabajo
+4.	Emprendimiento y trabajo
+a.	Construcción de boulevard para el comercio en Chañaral: Proyecto arquitectónico para transformar el paseo Lord Cochrane en un boulevard y habilitar 30 locales para comerciantes que perdieron sus negocios. 
+Status: En desarrollo (Plazo estimado 31 mayo)
 
-a.	Construcción de boulevard para el comercio en Chañaral
-Se habilitarán entre 30 y 40 locales para comerciantes que perdieron sus negocios. Ello, a través de un proyecto arquitectónico para transformar el paseo Lord Cochrane en un boulevard que sea el polo de comercio de la ciudad.
+b.	Plataforma online de apoyo a emprendedores afectados: Sistema de crowdsfunding, en coordinación con distintas organizaciones de emprendimiento del país.
+Status: En desarrollo (Plazo estimado 7 mayo)
 
-b.	Apoyo a los emprendedores afectados
-Se está levantando una plataforma orientada a que emprendedores del  país puedan ayudar a emprendedores de Chañaral afectados. Ello, en coordinación con distintas organizaciones como IF, Asech, Sistema B, Fondo Esperanza, Simón de Cirene, Acción Emprendedora, SocialLab, Wingzoft y Ewin.
+c.	Entrega de embarcación a pescadores de Pan de Azúcar: Nuevo bote para turismo, para que los pescadores afectados del sindicato puedan retomar prontamente su fuente de ingresos.
+Status: En desarrollo (Plazo estimado 15 mayo)
 
-c.	Entrega de embarcación a pescadores de Pan de Azúcar
-Desafío Levantemos Chile apoyará al sindicado de pescadores de Pan de Azúcar, que perdió la embarcación con la que realizaban viajes turísticos en el parque nacional. Se les entregará un nuevo bote con los implementos de seguridad, para que puedan retomar prontamente su fuente de ingresos.
+5.	Retiro del barro
+a.	Campañas: Bajo el llamado #elbarroeselenemigo, Desafío recaudó fondos para ayudar a las familias y comunidades a retirar el barro de sus casas y calles.
+-	KEA: Entrega de 3.000 Kits Emergencia Atacama (1 carretilla, 2 palas, 1 par de botas, 1 par de guantes y 5 mascarillas) 
+Status: Finalizado 15 abril
+-	Horas de maquinaria (Ojo que ya bajamos esta campaña y no la estamos comunicando. Si hacen un aviso no debemos incluirla).
+Status: Finalizado 24 abril
 
-5.) Retenes de Carabineros
+b.	Cuadrillas de retiro de barro: Diversos grupos de voluntarios han trabajado en las comunidades ayudando a las familias a retirar el barro de sus casas.
+     Status: En desarrollo
 
-A través de una donación de una empresa, Desafío Levantemos Chile coordina la instalación de módulos temporales para que puedan funcionar los retenes de Carabineros destruidos en Copiapó, El Salado, Diego de Almagro y Sacramento.
+6.	Campañas de recepción y envío de donaciones
+Al día siguiente de la catástrofe, el jueves 26 de marzo, Desafío activó centros de acopio para la recepción y envío de donaciones a la zona afectada.
 
-6.) Entrega de donaciones y ayuda
+a.	Campañas realizadas
+-	Ayuda básica: agua, alimentos, colchonetas, útiles de aseo.
+-	Ayuda focalizada: mascarillas, botas, alcohol gel
+Status: Finalizado 2 abril
 
-Desafío Levantemos Chile ha enviado 500 toneladas de ayuda (agua, alimentos y artículos de aseo) a las zonas afectadas, que están siendo distribuidas a través de dos  centros de acopio en Copiapó. Esta ayuda fue conseguida gracias a las donaciones generosas de miles de personas y empresas.
+b.	Ayuda enviada:
+-	Agua 141.742,85 litros
+-	Alimento: 24.141 kilos
+-	Artículos higiene y otros: 94.223 unidades
+
+Para trasladar estas donaciones al norte:
++ de 30 camiones voluntarios
++ de 25 vuelos cargo de emergencia
+Status: Finalizado 15 abril
+
+7.	Retenes de Carabineros
+Instalación de módulos temporales para que puedan funcionar los retenes de Carabineros destruidos en Copiapó, El Salado, Diego de Almagro y Sacramento.
+Status: Finalizado
