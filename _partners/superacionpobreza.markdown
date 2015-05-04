@@ -5,16 +5,8 @@ web: www.superacionpobreza.cl
 image: superacionpobreza.png
 active: true
 ---
-- Los Profesionales SP siguen en el castrato de vivienda en la comuna de Diego de Almagro, Salado (localidad), Chañaral, Copiapó, Tierra Amarilla y Alto del Carmen, (hemos estado en todas las comunas afectadas), esta semana  pudiera concluir este trabajo, está por confirmar.
-
-- Con alumnas en práctica hemos realizado trabajo en albergue del sector del Palomar en Copiapó, con actividades recreativas y educativas con los niños.
-
-- Con alumna en práctica hemos apoyado a la SEREMI MDS en la digitalización de la Ficha EFU durante toda la semana.
-
-- Hemos apoyado a la SEREMI MDS en la difusión de los lugares de aplicación de la ficha EFU en Copiapó.
-
-- En coordinación con Caritas se va a conformar mesas de trabajo por ámbito, con el fin de no sobre intervenir en temas de niños, adultos mayores, inmigrantes, etc.
-
-- Se continúa apoyando la convocatoria de Voluntarios en coordinación con el MDS, Hogar de Cristo, TECHO, Caritas e INJUV. El viernes se realizó un punto de prensa para mismo fin.
- 
-- Esta semana se participó de una capacitación de Psicólogos voluntarios por Chile, con la SEREMI de Salud.
+- Ha concluido el apoyo a SERVIU en el catastro de vivienda.
+- Se ha capacitado a monitores de Caritas en temas de prevención y promoción de la salud, mientras que en Copiapó y Tierra Amarilla, monitores en terreno entregan Kit de higiene a las familias. Asimismo se ha capacitado a voluntarios de la Fundación Superación de la Pobreza y funcionarios de SEREMI de Salud en  temas de higiene, para facilitar y apoyar a las autoridades con la entrega de los kit  y recomendaciones para prevenir enfermedades respiratorias y gastrointestinales.
+- Se continua el trabajo en las mesas de coordinación con el obispado y consejo de la infancia en Copiapó.
+- En Copiapó los profesionales Servicio País enfocarán su trabajo en los adultos mayores y también primera infancia en coordinación con Integra.
+- En Tierra Amarilla se prioriza el trabajo con adultos mayores en el ámbito de salud,  hábitat, y educación medio ambiental (Ej: cómo manejar los residuos domiciliarios)
